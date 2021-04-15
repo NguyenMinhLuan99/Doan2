@@ -1,0 +1,124 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #58ACFA;
+    border: solid 1px;
+}
+
+.header p {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.menu {
+    border: solid 1px;
+    height: 700px;
+    width: 300px;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.menu ul {
+    position: absolute;
+    list-style: none;
+}
+
+.list {
+    margin-top: 70px;
+}
+
+.menu ul li {
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.form-list {
+    margin-left: 400px;
+    height: 500px;
+    width: 800px;
+    margin-top: -600px;
+}
+
+.tb-list {
+    display: flex;
+    margin-left: 30px;
+}
+
+#thanh-phan {
+    font-size: 20px;
+    border: solid 1px;
+    text-align: center;
+}
+
+#thanh-phan-top {
+    background-color: cadetblue;
+}
+
+.products {
+    margin-top: -600px;
+}
+
+.product-item {
+    width: 600px;
+    border: solid 1px;
+    margin-left: 500px;
+}
+
+
+/* .id-product {
+    display: inline-block;
+    margin: 15px;
+    margin-top: 10px;
+} */
+
+.thanh-phan {
+    background-color: #454d55;
+    width: 600px;
+    border: solid 1px;
+    height: 40px;
+    margin-left: 500px;
+}
+
+.id-thanhphan {
+    margin-top: 5px;
+    color: white;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.form-list {
+    margin-left: 10px;
+}
+
+.id-caterory {
+    display: inline-block;
+    margin: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.caterory-item {
+    width: 300px;
+    border: solid 1px;
+    margin-left: 500px;
+}
+
+.thanh-phandanhmuc {
+    background-color: #454d55;
+    width: 300px;
+    border: solid 1px;
+    height: 40px;
+    margin-left: 500px;
+}
+
+#table-data {
+    position: absolute;
+    top: 150px;
+    left: 22%;
+}
+
+tbody tr td a:hover {
+    text-decoration: none;
+}

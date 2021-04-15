@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#top {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #0D5A49;
+}
+
+#logo-title {
+    font-size: 40px;
+    color: white;
+}
+
+#top ul {
+    position: absolute;
+    right: 0;
+    margin-right: 300px;
+}
+
+#top ul li {
+    font-family: monospace;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#top ul li a {
+    color: white;
+}
+
+#top a.active {
+    background-color: #0A2A0A;
+}
+
+#form-search {
+    margin-left: 82%;
+    margin-top: -65px;
+}
+
+::placeholder {
+    padding: 10px;
+}
+
+.title-group {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    background-color: #A4A4A4;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.form {
+    width: 610px;
+    margin: 100px 0px 0px 0px;
+    box-shadow: 1px 4px 4px #DFDFDF;
+}
+
+#input-group {
+    margin-left: 120px;
+}
+
+.inputWithIcon {
+    position: relative;
+    text-align: center;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 110px;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .2s;
+}
+
+.inputWithIcon input[type=text]:focus+i {
+    color: rgb(218, 96, 26);
+}
+
+#in-cart {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+#btn-buy,
+.input {
+    outline: none;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 50px;
+}
+
+.input {
+    border: 1px solid #ECF0F1;
+    background-color: #ECF0F1;
+    text-align: center;
+    border-radius: 4px;
+    transition: border .2s
+}
+
+.input:focus {
+    box-shadow: 0 0 10px 0 rgb(84, 86, 87);
+}
+
+#btn-buy {
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #0E965B;
+    transition: .5s;
+}
+
+#btn-buy:hover {
+    border: 2px solid #10B970;
+}
+
+table {
+    margin: 0 5px;
+    width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid #DADADA;
+}
+
+tr th {
+    padding: 10px 0;
+}
+
+tr td {
+    padding: 15px 0;
+}
+
+i {
+    color: grey;
+    cursor: pointer;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+    transition: .2s;
+}
+
+i:hover {
+    color: black;
+}
+
+#total-price {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.anh {
+    height: 80px;
+    width: 70px;
+}
+
+#in-cart {
+    margin-top: -263px;
+    margin-left: 800px;
+}
+
+
+/* 
+new css
+*/
+
+.form-control {
+    margin-top: 10px;
+    height: 45px !important;
+}
+
+.qty {
+    border: none;
+    width: 50px;
+}
+
+.qty:focus {
+    border: 1px solid whitesmoke;
+}

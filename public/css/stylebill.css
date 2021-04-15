@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+html, body{
+    width: 100%;
+}
+#top {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #0D5A49;
+}
+#logo-title{
+    font-size: 40px;
+    color: white;
+}
+#top ul {
+    position: absolute;
+    right: 0;
+    margin-right: 300px;
+}
+
+#top ul li {
+    font-family: monospace;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+#top ul li a{
+    color: white;
+}
+#top a.active{
+    background-color: #0A2A0A;
+}
+#form-search{
+    margin-left: 82%; 
+    margin-top: -65px;
+
+}
+.don-hang{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+.form-bill{
+   margin-left: 350px;
+   font-size: 20px;
+   border: solid 0.5;
+   height: 220px;
+   width: 1000px;
+   background-color: #ECF0F1;
+   margin-top: 50px;
+}
+.thong-tin{
+    padding: 40px;
+}  

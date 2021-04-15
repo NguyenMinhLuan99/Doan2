@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#top {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #0D5A49;
+}
+
+#logo-title {
+    font-size: 40px;
+    color: white;
+}
+
+#top ul {
+    position: absolute;
+    right: 0;
+    margin-right: 300px;
+}
+
+#top ul li {
+    font-family: monospace;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#top ul li a {
+    color: white;
+}
+
+#top a.active {
+    background-color: #0A2A0A;
+}
+
+#form-search {
+    margin-left: 82%;
+    margin-top: -65px;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+    width: 50%;
+    border: solid #E6E6E6 1px;
+    background: #E6E6E6;
+}
+
+.container a {
+    margin-left: 5px;
+    font-family: 'Saira', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.list-watch {
+    padding: 5px 10px;
+    line-height: 1.5;
+    border-radius: 3px white;
+    display: inline-block;
+    margin-right: 10px;
+    height: 50px;
+    width: 10%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.products {
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+.product {
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.price {
+    width: 100px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-product {
+    margin-left: 30px;
+    height: 260px;
+    width: 75%;
+}
+
+.footer {
+    position: relative;
+    font-size: 20px;
+    background-color: #363A39;
+    height: 100px;
+    width: 100%;
+    top: 150px;
+}
+
+.support {
+    position: absolute;
+}
+
+div>ul>li {
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.caterory-item {
+    margin-top: 33px;
+    height: 40px;
+}
+
+.caterory {
+    font-family: monospace;
+    font-size: 27px;
+}
+
+.name-product {
+    font-size: 17px;
+    color: black;
+}
+
+.img-product {
+    margin-left: 60px;
+    width: 180px;
+    height: 260px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.chitiet {
+    margin-left: 75px;
+    font-size: 15px;
+}
+
+.price {
+    margin-left: 73px;
+}

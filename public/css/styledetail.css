@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#top {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #0D5A49;
+}
+
+#logo-title {
+    font-size: 40px;
+    color: white;
+}
+
+#top ul {
+    position: absolute;
+    right: 0;
+    margin-right: 300px;
+}
+
+#top ul li {
+    font-family: monospace;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#top ul li a {
+    color: white;
+}
+
+#top a.active {
+    background-color: #0A2A0A;
+}
+
+#form-search {
+    margin-left: 82%;
+    margin-top: -65px;
+}
+
+#category {
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: #ECF0F1;
+    height: 40px;
+}
+
+#img-product {
+    height: 500px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.danh-muc {
+    margin-left: 50px;
+}
+
+.img-product1 {
+    height: 400px;
+    width: 300px;
+}
+
+#infomation {
+    height: 600px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+
+.name {
+    font-size: 34px;
+    font-family: Times, serif;
+}
+
+.brand {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 36px;
+    font-family: Times, serif;
+}
+
+.discripe {
+    font-size: 18px;
+}
+
+.buy {
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: #FF8C2D;
+    border: #FF8C2D 1px;
+}
+
+.anhsp {
+    height: 500px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.tensp {
+    margin-left: 650px;
+    margin-top: -440px;
+    font-size: 25px;
+}
+
+.giasp {
+    margin-left: 650px;
+    font-size: 30px;
+}
+
+.thongtinsp {
+    margin-left: 650px;
+    font-size: 22px;
+    width: 600px;
+}
+
+.add {
+    margin-left: 650px;
+    font-size: 22px;
+}
